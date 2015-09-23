@@ -1,7 +1,7 @@
 /*!
  * roi-calculator
  * 
- * Version: 0.0.1 - 2015-09-23T05:04:10.787Z
+ * Version: 0.0.1 - 2015-09-23T09:44:25.970Z
  * License: ISC
  */
 
@@ -7084,7 +7084,7 @@ button.close {
 }
 .hy-number {
   font-family: 'DINNextLTPro-Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 18px;
+  font-size: 15px;
 }
 .hy-number-desc {
   text-transform: uppercase;
@@ -7967,6 +7967,7 @@ div.widget-container .card .slider-container {
 }
 div.widget-container .card .slider-container rzslider {
   background: grey;
+  margin: 30px 0px 35px 0px;
 }
 div.widget-container .card .slider-container rzslider.ptg-slider .pointer {
   background: transparent;
@@ -7983,8 +7984,11 @@ div.widget-container .card .slider-container rzslider.ptg-slider span.bar {
   background: grey;
 }
 div.widget-container .card .slider-container rzslider.ptg-slider span.bubble {
+  left: 7px;
   color: #365ebf;
+  padding: 1px 3px 1px 10px;
 }
 div.widget-container .card .slider-container rzslider.ptg-slider span.bubble.limit {
-  color: #365ebf;
+  color: #505050;
+  top: 10px;
 }
