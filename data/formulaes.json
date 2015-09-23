@@ -1,0 +1,15 @@
+[
+  {"bankFeeOther":"noOfRefund * bank.fee"},
+  {"processFeeOther":"noOfRefund * (product.technologyFee + product.transmissionFee)"},
+  {"incentiveOther":"product.rtBonus"},
+  {"totalOther":"data.bankFeeOther+data.processFeeOther-data.incentiveOther"},
+
+  {"bankFeePro":"noOfRefund * banks.sbtpg.fee"},
+  {"processFeePro":"noOfRefund * (products.proSeriese.technologyFee + products.proSeriese.transmissionFee)"},
+  {"incentivePro":"products.proSeriese.rtBonus"},
+  {"totalPro":"data.bankFeePro+data.processFeePro-data.incentivePro"},
+
+  {"difference":"data.totalOther - data.totalPro"}
+
+]
+

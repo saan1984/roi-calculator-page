@@ -1,0 +1,17 @@
+{
+  "noRefundSlider":{
+    "label":"of Refund Transfers",
+    "floor": 1,
+    "ceil": 10000,
+    "value": 1,
+    "visible":true
+  },
+  "bank": {
+    "label":"Banking Partner"
+  },
+  "product":{
+    "label":"Tax Software Provider"
+  },
+
+  "productMessage" : "Now that you've seen the ProSeries difference,request your quote on how to make <strong class='strong-number'>MORE</strong> money."
+}

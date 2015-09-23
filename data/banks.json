@@ -1,0 +1,34 @@
+{
+  "taxSlayer":{
+    "name": "TaxSlayer Financial",
+    "fee": 30.00
+  },
+  "sbtpg":{
+    "name": "SBTPG",
+    "fee": 35.00
+  },
+  "repubBank":{
+    "name": "Republic Bank",
+    "fee": 31.95
+  },
+  "riverBank":{
+    "name": "River City Bank",
+    "fee": 32.95
+  },
+  "refAdvantage":{
+    "name": "Refund Advantage",
+    "fee": 35.00
+  },
+  "advtFinancial":{
+    "name": "Advent Financial",
+    "fee": 34.95
+  },
+  "eps":{
+    "name": "EPS",
+    "fee": 20
+  },
+  "refundo":{
+    "name": "Refundo",
+    "fee": 27
+  }
+}
