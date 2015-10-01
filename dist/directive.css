@@ -1,7 +1,7 @@
 /*!
  * roi-calculator
  * 
- * Version: 0.0.1 - 2015-10-01T11:23:11.249Z
+ * Version: 0.0.1 - 2015-10-01T11:33:13.364Z
  * License: ISC
  */
 
@@ -7995,6 +7995,5 @@ div.widget-container .card .slider-container rzslider.ptg-slider span.bubble:aft
   margin-left: 30px;
 }
 div.widget-container .card .slider-container rzslider.ptg-slider span.bubble.limit {
-  color: #505050;
-  top: 10px;
+  display: none;
 }
