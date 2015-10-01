@@ -1,7 +1,7 @@
 /*!
  * roi-calculator
  * 
- * Version: 0.0.1 - 2015-09-23T09:44:25.970Z
+ * Version: 0.0.1 - 2015-10-01T08:38:48.459Z
  * License: ISC
  */
 
@@ -6920,6 +6920,9 @@ button.close {
 .hy-bg-blue2 {
   background-color: #2546ac;
 }
+.hy-bg-charcolgrey {
+  background-color: #737373;
+}
 .hy-bg-brightblue1 {
   background-color: #0098cd;
 }
@@ -7866,14 +7869,20 @@ button.hy-close {
   content: "\f06d";
 }
 div.widget-container {
-  background: #f5f6f8;
+  background: transparent;
+}
+div.widget-container .padding-0 {
+  padding: 0px !important;
+}
+div.widget-container .padding-left-small {
+  padding-left: 30px !important;
 }
 div.widget-container input,
 div.widget-container select {
   background: #ffffef;
 }
 div.widget-container .quote-link {
-  margin-bottom: 10px;
+  margin-top: 10px;
 }
 div.widget-container .ptg-header-section {
   background: #e3eaf3;
@@ -7884,19 +7893,13 @@ div.widget-container .ptg-header-section h1 {
 div.widget-container .strong-number {
   font-size: 130%;
 }
-div.widget-container .profit-message {
-  margin-top: 0px;
-}
 div.widget-container .card {
   background: #e3eaf3;
-  box-shadow: 0px 0px 2px 0px black;
 }
 div.widget-container .card .roi-subtitle {
-  margin: 0px;
   padding: 0px 0px 20px 0px;
 }
 div.widget-container .card .ptg-vertical-gap {
-  margin-top: 5px;
   background: #f8f8ff;
   padding: 10px;
 }
@@ -7958,8 +7961,6 @@ div.widget-container .card table tfoot tr td sub {
   margin-bottom: 10px;
 }
 div.widget-container .card .slider-container {
-  margin-bottom: 25px;
-  overflow: hidden;
   background: transparent;
   padding-bottom: 2px;
   text-align: left;
@@ -7971,22 +7972,26 @@ div.widget-container .card .slider-container rzslider {
 }
 div.widget-container .card .slider-container rzslider.ptg-slider .pointer {
   background: transparent;
-}
-div.widget-container .card .slider-container rzslider.ptg-slider .pointer:after {
-  background: #e77700;
-  border: 1px solid #e5a30f;
   width: 20px;
   height: 20px;
+}
+div.widget-container .card .slider-container rzslider.ptg-slider .pointer:after {
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  background: #e77700;
+  border: 1px solid #e5a30f;
   top: 7px;
-  left: 7px;
 }
 div.widget-container .card .slider-container rzslider.ptg-slider span.bar {
   background: grey;
 }
 div.widget-container .card .slider-container rzslider.ptg-slider span.bubble {
-  left: 7px;
   color: #365ebf;
-  padding: 1px 3px 1px 10px;
+  display: inline;
+}
+div.widget-container .card .slider-container rzslider.ptg-slider span.bubble:after {
+  margin-left: 30px;
 }
 div.widget-container .card .slider-container rzslider.ptg-slider span.bubble.limit {
   color: #505050;
