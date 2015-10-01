@@ -4,16 +4,6 @@
  * Version: 0.0.1 - 2015-10-01T11:15:54.634Z
  * License: ISC
  */
-
-
-/**
- * Angular JS slider directive
- *
- * (c) Rafal Zajac <rzajac@gmail.com>
- * http://github.com/rzajac/angularjs-slider
- *
- * Licensed under the MIT license
- */
 rzslider {
   display: inline-block;
   position: relative;
