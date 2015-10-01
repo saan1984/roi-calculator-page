@@ -1,7 +1,7 @@
 /*!
  * roi-calculator
  * 
- * Version: 0.0.1 - 2015-10-01T10:56:25.553Z
+ * Version: 0.0.1 - 2015-10-01T11:03:35.315Z
  * License: ISC
  */
 
@@ -7962,7 +7962,8 @@ div.widget-container .card table tfoot tr td sub {
 }
 div.widget-container .card .slider-container {
   background: transparent;
-  padding-bottom: 2px;
+  overflow: hidden;
+  height: 65px;
   text-align: left;
   clear: both;
 }

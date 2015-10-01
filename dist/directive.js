@@ -1,7 +1,7 @@
 /*!
  * roi-calculator
  * 
- * Version: 0.0.1 - 2015-10-01T10:56:25.548Z
+ * Version: 0.0.1 - 2015-10-01T11:03:35.309Z
  * License: ISC
  */
 
