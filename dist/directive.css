@@ -1,8 +1,18 @@
 /*!
  * roi-calculator
  * 
- * Version: 0.0.1 - 2015-10-01T11:15:54.634Z
+ * Version: 0.0.1 - 2015-10-01T11:23:11.249Z
  * License: ISC
+ */
+
+
+/**
+ * Angular JS slider directive
+ *
+ * (c) Rafal Zajac <rzajac@gmail.com>
+ * http://github.com/rzajac/angularjs-slider
+ *
+ * Licensed under the MIT license
  */
 rzslider {
   display: inline-block;
@@ -7861,6 +7871,9 @@ button.hy-close {
 div.widget-container {
   background: transparent;
 }
+div.widget-container input {
+  width: 95%;
+}
 div.widget-container .padding-0 {
   padding: 0px !important;
 }
@@ -7953,8 +7966,7 @@ div.widget-container .card table tfoot tr td sub {
 div.widget-container .card .slider-container {
   background: transparent;
   height: 65px;
-  text-align: left;
-  clear: both;
+  width: 95%;
 }
 div.widget-container .card .slider-container rzslider {
   background: grey;
