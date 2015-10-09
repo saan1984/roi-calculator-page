@@ -1,7 +1,7 @@
 /*!
  * roi-calculator
  * 
- * Version: 0.0.1 - 2015-10-01T11:33:13.364Z
+ * Version: 0.0.1 - 2015-10-09T05:53:27.386Z
  * License: ISC
  */
 
@@ -7870,6 +7870,10 @@ button.hy-close {
 }
 div.widget-container {
   background: transparent;
+  font-size: 1.7rem;
+}
+div.widget-container .profit-message {
+  overflow-wrap: break-word;
 }
 div.widget-container input {
   width: 95%;
@@ -7885,7 +7889,7 @@ div.widget-container select {
   background: #ffffef;
 }
 div.widget-container .quote-link {
-  margin-top: 10px;
+  margin: 5px 0px;
 }
 div.widget-container .ptg-header-section {
   background: #e3eaf3;
@@ -7894,7 +7898,7 @@ div.widget-container .ptg-header-section h1 {
   color: #505050;
 }
 div.widget-container .strong-number {
-  font-size: 130%;
+  font-size: 2rem;
 }
 div.widget-container .card {
   background: #e3eaf3;

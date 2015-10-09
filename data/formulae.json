@@ -6,10 +6,9 @@
 
   {"bankFeePro":"noOfRefund * banks.sbtpg.fee"},
   {"processFeePro":"noOfRefund * (products.proSeries.technologyFee + products.proSeries.transmissionFee)"},
-  {"incentivePro":"products.proSeries.rtBonus"},
+  {"incentivePro":"noOfRefund > 50 ? (noOfRefund-50) * (products.proSeries.rtBonus):0"},
   {"totalPro":"data.bankFeePro+data.processFeePro-data.incentivePro"},
 
   {"difference":"data.totalOther - data.totalPro"}
-
 ]
 

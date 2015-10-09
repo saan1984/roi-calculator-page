@@ -12,6 +12,33 @@
   "product":{
     "label":"Tax Software Provider"
   },
-
+  "calculationOther":[
+    {
+      "label":"Bank Fees",
+      "model":"data.bankFeeOther"
+    },
+    {
+      "label":"Added RT Processing Fees",
+      "model":"data.processFeeOther"
+    },
+    {
+      "label":"Intuit RT Incentive",
+      "model":"data.incentiveOther"
+    }
+  ],
+  "calculationPro":[
+    {
+      "label":"Bank Fees",
+      "model":"data.bankFeePro"
+    },
+    {
+      "label":"Added RT Processing Fees",
+      "model":"data.processFeePro"
+    },
+    {
+      "label":"Intuit RT Incentive",
+      "model":"data.incentivePro"
+    }
+  ],
   "productMessage" : "Now that you've seen the ProSeries difference,request your quote on how to make <strong class='strong-number'>MORE</strong> money."
 }
