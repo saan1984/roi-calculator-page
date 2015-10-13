@@ -1,4 +1,6 @@
 {
+  "title":"Tax Return ROI Calculator",
+  "subTitle":"See how much more money you can be putting in your pocket.",
   "noRefundSlider":{
     "label":"of Refund Transfers",
     "floor": 1,
@@ -40,5 +42,5 @@
       "model":"data.incentivePro"
     }
   ],
-  "productMessage" : "Now that you've seen the ProSeries difference,request your quote on how to make <strong class='strong-number'>MORE</strong> money."
+  "productMessage" : "Now that you've seen the ProSeries difference, request your quote on how to make <strong class='strong-number'>MORE</strong> money."
 }

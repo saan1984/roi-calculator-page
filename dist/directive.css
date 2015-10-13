@@ -1,7 +1,7 @@
 /*!
  * roi-calculator
  * 
- * Version: 0.0.1 - 2015-10-09T05:53:27.386Z
+ * Version: 0.0.1 - 2015-10-13T07:48:14.438Z
  * License: ISC
  */
 
@@ -7889,7 +7889,7 @@ div.widget-container select {
   background: #ffffef;
 }
 div.widget-container .quote-link {
-  margin: 5px 0px;
+  margin: 15px 0px;
 }
 div.widget-container .ptg-header-section {
   background: #e3eaf3;
@@ -7902,6 +7902,8 @@ div.widget-container .strong-number {
 }
 div.widget-container .card {
   background: #e3eaf3;
+  margin-top: 10px;
+  color: #505050;
 }
 div.widget-container .card .roi-subtitle {
   padding: 0px 0px 20px 0px;
@@ -7924,6 +7926,7 @@ div.widget-container .card h4.product-profit {
 }
 div.widget-container .card table {
   background: #f8f8ff;
+  table-layout: fixed;
 }
 div.widget-container .card table thead tr td:first-child {
   width: 50%;
@@ -7937,6 +7940,9 @@ div.widget-container .card table thead tr td:last-child {
   word-wrap: break-word;
   vertical-align: middle;
 }
+div.widget-container .card table tbody {
+  font-size: 1.9rem;
+}
 div.widget-container .card table tbody tr td:first-child {
   width: 50%;
   text-align: right;
@@ -7945,7 +7951,8 @@ div.widget-container .card table tbody tr td:first-child {
 }
 div.widget-container .card table tbody tr td:last-child {
   width: 50%;
-  text-align: center;
+  text-align: right;
+  padding-right: 35px;
   vertical-align: middle;
   word-wrap: break-word;
 }
@@ -7960,7 +7967,8 @@ div.widget-container .card table tfoot tr td:first-child {
 }
 div.widget-container .card table tfoot tr td:last-child {
   width: 50%;
-  text-align: center;
+  text-align: right;
+  padding-right: 35px;
   word-wrap: break-word;
   vertical-align: middle;
 }
