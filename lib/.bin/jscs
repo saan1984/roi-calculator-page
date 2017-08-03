@@ -6,7 +6,7 @@ var cli = require('../lib/cli');
  *
  * Common usage case is:
  *
- * ./node_modules/.bin/jscs file1 dir1 file2 dir2
+ * ./lib/.bin/jscs file1 dir1 file2 dir2
  */
 var program = require('commander');
 
